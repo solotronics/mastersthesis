@@ -14,7 +14,7 @@ LABEL maintainer "Sai Man Wong <smwong@kth.se>"
 
 WORKDIR /
 
-COPY china.sources.list /etc/apt/sources.list
+COPY us.sources.list /etc/apt/sources.list
 COPY docker-entrypoint.sh /
 
 RUN apt-get update && apt-get install -y \

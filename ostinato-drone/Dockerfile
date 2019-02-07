@@ -11,7 +11,7 @@ LABEL maintainer "Sai Man Wong <smwong@kth.se>"
 WORKDIR /
 
 # Change software repository according to your geographical location
-# COPY china.sources.list /etc/apt/sources.list
+COPY us.sources.list /etc/apt/sources.list
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     gdebi-core \
