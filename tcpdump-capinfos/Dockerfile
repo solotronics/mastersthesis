@@ -1,10 +1,10 @@
-# docker build -t saimanwong/tcpdump-capinfos .
+# docker build -t gaddy/tcpdump-capinfos .
 # docker run --rm \
 #   --name host-tcpdump \
 #   --privileged \
 #   --network host \
 #   -v /tmp:/tmp \
-#   saimanwong/tcpdump-capinfos \
+#   gaddy/tcpdump-capinfos \
 #   <CAPTURE_DURATION_SEC> \
 #   <INTERFACE> \
 #   udp
