@@ -1,9 +1,9 @@
-# docker build -t saimanwong/ostinato-drone .
+# docker build -t gaddy/ostinato-drone .
 # docker run --rm -d \
 #   --name host-drone \
 #   --privileged \
 #   --network host \
-#   saimanwong/ostinato-drone
+#   gaddy/ostinato-drone
 
 FROM ubuntu:xenial
 LABEL maintainer "Sai Man Wong <smwong@kth.se>"

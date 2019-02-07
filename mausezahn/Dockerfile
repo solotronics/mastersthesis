@@ -1,9 +1,9 @@
-# docker build -t saimanwong/mausezahn .
+# docker build -t gaddy/mausezahn .
 # docker run --rm -d \
 #   --name host-mausezahn \
 #   --privileged \
 #   --network host \
-#   saimanwong/mausezahn \
+#   gaddy/mausezahn \
 #   <SRC_INTERFACE> \
 #   0 \
 #   <PACKET_SIZE> \

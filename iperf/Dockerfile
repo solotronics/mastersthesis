@@ -1,9 +1,9 @@
-# docker build -t saimanwong/iperf .
+# docker build -t gaddy/iperf .
 # docker run --rm -d \
 #   --name host-iperf \
 #   --privileged \
 #   --network host \
-#   saimanwong/iperf \
+#   gaddy/iperf \
 #   <PACKET_SIZE> \
 #   <BANDWIDTH_IN_MBPS> \
 #   <THREADS> \

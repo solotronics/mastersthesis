@@ -1,8 +1,8 @@
-# docker build -t saimanwong/ostinato-python-api .
+# docker build -t gaddy/ostinato-python-api .
 # docker run --rm -d \
 #   --name host-python \
 #   --network host \
-#   saimanwong/ostinato-python-api \
+#   gaddy/ostinato-python-api \
 #   <DRONE_IP> \
 #   <SRC_INTERFACE> \
 #   <SRC_MAC> \
